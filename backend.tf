@@ -1,10 +1,11 @@
 terraform {
-  cloud {
+  required_version = ">= 1.0.0"
 
-    organization = "your-organization"
+  cloud {
+    organization = "jituAB"
 
     workspaces {
-      name = "your-workspace"
+      name = "Actual-Budget"
     }
   }
 }
